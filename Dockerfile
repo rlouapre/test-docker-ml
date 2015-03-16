@@ -13,7 +13,8 @@ ENV ML_DOWNLOAD_URL https://developer.marklogic.com/download/binaries/7.0/${ML_R
 RUN curl -k -L -o /tmp/${ML_RPM_FILE} ${ML_DOWNLOAD_URL}
 
 # Install MarkLogic, Python
-RUN yum -y update && yum -y install \
+# RUN yum -y update && yum -y install \
+RUN yum -y install \
   /tmp/${ML_RPM_FILE} \
   python-setuptools 
 
