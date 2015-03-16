@@ -4,7 +4,7 @@ MAINTAINER Richard Louapre <richard.louapre@marklogic.com>
 
 ENV ML_VERSION 7.0-4.3
 ENV ML_RPM_FILE MarkLogic-${ML_VERSION}.x86_64.rpm
-ENV ML_REST_PARAMS t=5UvhB.LBLhqsQmNwweH/s.&email=richard.louapre%40gmail.com
+ENV ML_REST_PARAMS t=dYvXoJ1ejkujcVU8IXVTz1&email=richard.louapre%40gmail.com
 ENV ML_DOWNLOAD_URL https://developer.marklogic.com/download/binaries/7.0/${ML_RPM_FILE}?${ML_REST_PARAMS}
 
 # RUN yum -y update && yum clean all
